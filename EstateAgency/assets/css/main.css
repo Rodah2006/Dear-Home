@@ -17,8 +17,8 @@
 :root {
   --background-color: #ffffff;
   --default-color: #414841;
-  --heading-color: #405744;
-  --accent-color: #C5A253;
+  --heading-color: #344B3A;
+  --accent-color: #A9822F;
   --surface-color: #ffffff;
   --contrast-color: #ffffff;
 }
@@ -26,24 +26,24 @@
 /* Navigation Colors */
 :root {
   --nav-color: #414841;
-  --nav-hover-color: #405744;
+  --nav-hover-color: #344B3A;
   --nav-mobile-background-color: #ffffff;
   --nav-dropdown-background-color: #ffffff;
   --nav-dropdown-color: #414841;
-  --nav-dropdown-hover-color: #C5A253;
+  --nav-dropdown-hover-color: #A9822F;
 }
 
 /* Color Presets */
 .light-background {
-  --background-color: #F8F6F0;
+  --background-color: #FAF8F2;
   --surface-color: #ffffff;
 }
 
 .dark-background {
-  --background-color: #2F4334;
+  --background-color: #344B3A;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #354A39;
+  --surface-color: #344B3A;
   --contrast-color: #ffffff;
 }
 
@@ -376,7 +376,7 @@ h6 {
   .mobile-nav-active { overflow: hidden; }
 
   .mobile-nav-active .mobile-nav-toggle {
-    color: #405744;
+    color: #344B3A;
     position: absolute;
     font-size: 32px;
     top: 15px;
@@ -714,7 +714,7 @@ section,
   transition: 0.3s;
   padding: 0;
   border: 0;
-  background-color: #C5A253;
+  background-color: #C6A04A;
 }
 
 .hero .carousel-indicators .active {
@@ -856,7 +856,7 @@ section,
 }
 
 .testimonials .testimonial-item .stars { margin-bottom: 15px; }
-.testimonials .testimonial-item .stars i { color: #C5A253; margin: 0 1px; }
+.testimonials .testimonial-item .stars i { color: #C6A04A; margin: 0 1px; }
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
@@ -942,7 +942,7 @@ section,
 }
 
 .about .content .read-more i { font-size: 18px; margin-left: 5px; line-height: 0; transition: 0.3s; }
-.about .content .read-more:hover { background: #405744; color: #ffffff; padding-right: 19px; }
+.about .content .read-more:hover { background: #344B3A; color: #ffffff; padding-right: 19px; }
 .about .content .read-more:hover i { margin-left: 10px; }
 
 .about .about-images img {
