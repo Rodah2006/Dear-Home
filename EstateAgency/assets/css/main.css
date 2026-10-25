@@ -1025,12 +1025,27 @@ section,
 .about .content .who-we-are {
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  letter: spacing 1px;
+  font-size: 14px;
+  color: var(--accent-color);
+  
 }
 
 .about .content h3 {
   font-size: 2rem;
   font-weight: 700;
+  line-height: 1.25;
+  color: var(--heading-color);
+}
+
+about.content h3 span{
+  color: #c9a24b;
+
+}
+
+about.content p{
+  line-height: 1.8;
+
 }
 
 .about .content ul {
@@ -1039,12 +1054,12 @@ section,
 }
 
 .about .content ul li {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 .about .content ul i {
   font-size: 1.25rem;
-  margin-right: 4px;
+  margin-right: 6px;
   color: var(--accent-color);
 }
 
@@ -1060,7 +1075,7 @@ section,
   font-size: 16px;
   letter-spacing: 1px;
   padding: 12px 24px;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: 0.3s;
   display: inline-flex;
   align-items: center;
@@ -1075,7 +1090,8 @@ section,
 }
 
 .about .content .read-more:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background:#C9A24B;
+  color: #ffffff;
   padding-right: 19px;
 }
 
@@ -1085,6 +1101,7 @@ section,
 
 .about .about-images img {
   border-radius: 10px;
+  box-shadow: o 6px 20px rgba(63,90,71, 0.15);
 }
 
 /*--------------------------------------------------------------
